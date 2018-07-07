@@ -1,0 +1,95 @@
+body
+{
+    background-color: #ccc;
+    scroll-behavior: none;
+}
+.navbar .mega-dropdown
+ {
+  position: static !important;
+}
+
+.navbar .dropdown-menu.mega-menu 
+{
+  width: 99%;
+  border: none;
+  margin-left: 0.5%;
+  border-radius: 0; 
+  overflow-x: hidden;
+  height: 80vh;
+}
+.navbar .dropdown-menu.mega-menu.v-2 a 
+{
+  padding: 15px 10px 10px 35px; 
+}
+
+.navbar .dropdown-menu.mega-menu.v-2 a.news-title-2 
+{
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #000 !important; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 a.news-title-2:hover 
+{
+  color: #d0d6e2 !important; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul 
+{
+  list-style: none; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li 
+{
+  -webkit-transition: .3s;
+  transition: .3s; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li:hover 
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: .3s;
+  transition: .3s; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li a:after 
+{
+  font-family: "fontAwesome";
+  content: '\f0da';
+  position: absolute;
+  left: 0rem;
+  font-size: 12px;
+  top: 0rem; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item 
+{
+  color: #000 !important; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item:hover 
+{
+  color: #000 !important; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .sub-title
+{
+
+  border-bottom: 1px solid; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 .font-small 
+{
+  font-size: 0.85rem; 
+}
+.dropdown-menu .mega-menu .v-2 .row .z-depth-1 .special-color .show
+{
+  margin: 0px;
+  padding: 0px;
+}
+#subMenu > div > div.col-md-6.col-xl-3.sub-menu.my-xl-5.mt-5.mb-4{
+  padding: 0px;
+  margin:0px;
+}
+.menuD3
+{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+  max-height: -webkit-fill-available;
+}
+}
