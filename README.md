@@ -1,2 +1,2 @@
-# dynamic_menu
-dynamic menu using HTML,CSS, D3JS
+# Dynamic Mega Max Menu
+Creating dynamic mega max menu using HTML,CSS, D3Js.
